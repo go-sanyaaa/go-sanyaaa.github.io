@@ -5900,7 +5900,7 @@
 
 @media (min-width: 768px) {
     .header_theme_finza .header__inner {
-        s padding-top: 22px
+        padding-top: 22px
     }
 }
 
@@ -6073,22 +6073,12 @@
     }
 }
 
-.header_theme_finza.popup-menu_active .header__inner {
-    background-color: #007cff;
-    color: #fff;
-}
-
 .header_theme_finza.popup-menu_active .header__inner .logo__popup-closed {
     display: none;
 }
 
 .header_theme_finza.popup-menu_active .header__inner .logo__popup-open {
     display: block;
-}
-
-.header_theme_finza.popup-menu_active .header__inner .icon {
-    color: #fff;
-    fill: #007cff;
 }
 
 .header_theme_finza.popup-menu_active .header__inner .popup-menu__closed {
@@ -6223,7 +6213,7 @@
 }
 
 .nav__list {
-    margin: 0;
+    margin: 0 -20px;
     padding: 0;
     list-style-type: none;
 }
@@ -17611,11 +17601,11 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
     .nav_theme_finza.nav_view_main .nav__list_level_1 > .nav__item::after {
         position: absolute;
         top: 24px;
-        right: -10px;
+        right: 4px;
         content: '';
         width: 12px;
         height: 1px;
-        background-color: #fff;
+        background-color: #007cff;
         -webkit-transform: translateY(-50%) rotate(-45deg);
         transform: translateY(-50%) rotate(-45deg);
     }
@@ -17623,11 +17613,11 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
     .nav_theme_finza.nav_view_main .nav__list_level_1 > .nav__item::before {
         position: absolute;
         top: 24px;
-        right: -2px;
+        right: 12px;
         content: '';
         width: 12px;
         height: 1px;
-        background-color: #fff;
+        background-color: #007cff;
         -webkit-transform: translateY(-50%) rotate(45deg);
         transform: translateY(-50%) rotate(45deg);
     }
@@ -17678,13 +17668,11 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
 @media (max-width: 767px) {
     .nav_theme_finza.nav_view_main .nav__list_level_1 > .nav__item > .nav__link {
         display: block;
-        padding: 13px 8px;
-        color: rgba(255, 255, 255, .75)
+        padding: 13px 4px;
     }
 
     @media (max-width: 767px) {
         .nav_theme_finza.nav_view_main .nav__list_level_1 > .nav__item > .nav__link > a {
-            color: rgba(255, 255, 255, .75);
             text-decoration: none;
         }
     }
@@ -17699,11 +17687,11 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
     .nav_theme_finza.nav_view_main .nav__list_level_1 > .nav__item_active::after {
         position: absolute;
         top: 24px;
-        right: -10px;
+        right: 4px;
         content: '';
         width: 12px;
         height: 1px;
-        background-color: #fff;
+        background-color: #007cff;
         -webkit-transform: translateY(-50%) rotate(45deg);
         transform: translateY(-50%) rotate(45deg);
     }
@@ -17711,11 +17699,11 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
     .nav_theme_finza.nav_view_main .nav__list_level_1 > .nav__item_active::before {
         position: absolute;
         top: 24px;
-        right: -2px;
+        right: 12px;
         content: '';
         width: 12px;
         height: 1px;
-        background-color: #fff;
+        background-color: #007cff;
         -webkit-transform: translateY(-50%) rotate(-45deg);
         transform: translateY(-50%) rotate(-45deg);
     }
@@ -17772,7 +17760,6 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
     .nav_theme_finza.nav_view_main .nav__list_level_2 > .nav__item .nav__link {
         font-size: 14px;
         text-decoration: none;
-        color: #fff;
     }
 }
 
@@ -18969,7 +18956,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
         position: absolute;
         left: 0;
         right: 0;
-        background-color: #007cff;
+        background-color: #FFF;
         width: 100%;
         display: none;
         max-height: 70vh;
@@ -19020,6 +19007,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
 
 .popup-menu_theme_finza.popup-menu_active .popup-menu__inner {
     display: block;
+    box-shadow: 0px 80px 40px 12px #00000021;
 }
 
 @font-face {
