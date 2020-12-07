@@ -1,1 +1,0 @@
-# go-sanyaaa.github.io
